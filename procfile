@@ -1,1 +1,1 @@
-web: node_modules/.bin/vite build && node server.js
+web: node ./node_modules/vite/dist/node/chunks/entry.js --port $PORT
