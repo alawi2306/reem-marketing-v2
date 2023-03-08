@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./Home";
+import HomePage from "./Homepage.jsx";
 import GetStarted from "./GetStarted";
+import Termsofservice from "./termsofservice";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/getstarted" element={<GetStarted />} />
+      <Route path="/terms-of-service" component={<Termsofservice />} />
+      <Route path="/" component={<HomePage />} />
+      <Route path="/getstarted" component={<GetStarted />} />
     </Routes>
   );
 }

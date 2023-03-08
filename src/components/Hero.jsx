@@ -3,6 +3,7 @@
 import styles from "../style";
 import { discount, robot} from "../assets";
 import GetStarted from "./GetStarted";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Hero = () => {
   return (
