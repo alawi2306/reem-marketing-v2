@@ -19,6 +19,8 @@ export const navLinks = [
   },
 ];
 
+
+
 export const features = [
   {
     id: "feature-1",
@@ -97,7 +99,7 @@ export const footerLinks = [
       },
       {
         name: "Terms of service",
-        link: "/terms-of-service",
+        link: "/termsofservice",
       },
       {
         name: "Create",
@@ -194,3 +196,17 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const inputs = [
+  { id: "input1", name: "input1", type: "text", placeholder: "Input 1" },
+  { id: "input2", name: "input2", type: "text", placeholder: "Input 2" },
+  { id: "input3", name: "input3", type: "text", placeholder: "Input 3" },
+  { id: "input4", name: "input4", type: "text", placeholder: "Input 4" },
+];
+
+export const termsofservice= [
+  {  id: "term1", name: "Terms of service", content: "This website (the “Site”) is owned and operated by ReemMarketing “ReemMarketing.com” (“Reemmarketing,” “we” or “us”). By using the Site, you agree to be bound by these Terms of Service and to use the Site in accordance with these Terms of Service, our Privacy Policy and any additional terms and conditions that may apply to specific sections of the Site or to products and services available through the Site or from TXS Digital. Accessing the Site, in any manner, whether automated or otherwise, constitutes use of the Site and your agreement to be bound by these Terms of Service. We reserve the right to change these Terms of Service or to impose new conditions on use of the Site, from time to time, in which case we will post the revised Terms of Service on this website. By continuing to use the Site after we post any such changes, you accept the Terms of Service, as modified."},
+  {  id: "term2", name: "Our limited license to you", content: "This Site and all the materials available on the Site are the property of us and/or our affiliates or licensors, and are protected by copyright, trademark, and other intellectual property laws. The Site is provided solely for your personal noncommercial use. You may not use the Site or the materials available on the Site in a manner that constitutes an infringement of our rights or that has not been authorized by us. More specifically, unless explicitly authorized in these Terms of Service or by the owner of the materials, you may not modify, copy, reproduce, republish, upload, post, transmit, translate, sell, create derivative works, exploit, or distribute in any manner or medium (including by email or other electronic means) any material from the Site. You may, however, from time to time, download and/or print one copy of individual pages of the Site for your personal, non-commercial use, provided that you keep intact all copyright and other proprietary notices." },
+  {  id: "term3", name: "Your license to us", content: "" },
+
+]

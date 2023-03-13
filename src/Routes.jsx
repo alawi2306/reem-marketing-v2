@@ -1,16 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import HomePage from "./Homepage.jsx";
-import GetStarted from "./GetStarted";
-import Termsofservice from "./termsofservice";
-
-function App() {
-  return (
-    <Routes>
-      <Route path="/terms-of-service" component={<Termsofservice />} />
-      <Route path="/" component={<HomePage />} />
-      <Route path="/getstarted" component={<GetStarted />} />
-    </Routes>
-  );
-}
-
+import React from 'react';
+import {Route, Routes} from "react-router-dom";
+import Homepage from "./Homepage.jsx";
+import GetStarted from './Signup';
+import Termsofservice from './Termsofservices.jsx';
+const App = () => {
+return (
+<Routes>
+<Route path={'/'} element={<Homepage />}/>
+<Route path={'/signup'} element={<GetStarted />}/>
+<Route path='termsofservice' element={<Termsofservice />} ></Route>
+</Routes>
+);
+};
 export default App;
