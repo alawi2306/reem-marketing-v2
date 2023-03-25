@@ -4,12 +4,14 @@ import styles from './style';
 
 
 
+
+
+
 function getStarted() {
     return (
-    <div className="bg-14063D">
+    <div className={`bg-primary antialiased m-0`}>
             <Start></Start> 
        
-            <Form></Form>
 
     </div>
    
