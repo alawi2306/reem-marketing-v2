@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style';
-import { phone, Emails, form, } from '../assets';
+import { phone, Emails} from '../assets';
 
 const Start = () => {
   return (
