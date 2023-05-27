@@ -22,7 +22,6 @@ const HomePage = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
         <CTA />
         <Footer />
       </div>

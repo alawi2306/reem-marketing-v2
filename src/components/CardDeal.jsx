@@ -13,7 +13,6 @@ const CardDeal = () => (
         
       </p>
 
-      <Button to= "/get-started" styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>

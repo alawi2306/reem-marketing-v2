@@ -75,18 +75,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Expert",
+    value: "Google Ads",
   },
   {
     id: "stats-2",
-    title: "Trusted by Companies",
-    value: "230",
+    title: "Search Engine Optimization",
+    value: "Intermediate",
   },
   {
     id: "stats-3",
-    title: "Transactions",
-    value: "$100,000+",
+    title: "1 Year",
+    value: "Experience",
   },
 ];
 
@@ -102,8 +102,7 @@ export const footerLinks = [
         link: "/termsofservice",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+      
       },
       {
         name: "Explore",

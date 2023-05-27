@@ -31,7 +31,6 @@ const Business = () =>  (
       Our mission is to help our clients increase brand awareness, generate leads, and drive sales through effective social media marketing strategies .
       </p>
 
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

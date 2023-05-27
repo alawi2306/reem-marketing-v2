@@ -10,7 +10,7 @@ const Start = () => {
     <div className='flex flex-row flex-wrap mt-14 '>
       <img src={phone} className="max-w-lg" alt="" />
       <div className='flex lg:ml-20 items-center'>
-        <p className={`${styles.paragraph}`}>To get started with us, you can email us us at ali@reemmarketing.com.</p>
+        <p className={`${styles.paragraph}`}>-To get started with us, you can email us us at ali@reemmarketing.com. <br /><br />-We would then schedule a business call to discuss advertising futher. <br /><br />-Alternatively, you can fill out the form below and we would contact you directly</p>
       </div>
     </div>
          {/* gradient start */}

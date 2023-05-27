@@ -11,7 +11,7 @@ function getStarted() {
     return (
     <div className={`bg-primary antialiased m-0`}>
             <Start></Start> 
-       
+            <Form></Form>
 
     </div>
    
