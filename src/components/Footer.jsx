@@ -27,6 +27,9 @@ const Footer = () => (
           <li>-We will then reply within 24 hours of your email.</li>
           <li>-Normally we use google meets to set up meetings</li>
           <li>-Once we have formulated  our sales plan, we can start the marketing campaign.</li>
+          <p className="font-poppins font-normal text-24 leading-24 text-[28px] m-3  text-white">
+            That's it! We will be in contact very soon.
+          </p>
         </ul>
       </div>
     </div>
